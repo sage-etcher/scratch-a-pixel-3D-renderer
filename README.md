@@ -1,8 +1,8 @@
 # Scratch a Pixel 3D Renderer
 
-___version:___ 0.1.0.1-dev  
+___version:___ 0.1.1.2-dev  
 
-A 3D Rendering library build using the tutorials at (Scratch-a-Pixel)[https://scratchapixel.com/index.html].
+A 3D Rendering library build using the tutorials at [Scratch-a-Pixel](https://scratchapixel.com/index.html).
 
 
 ## Building the Program using GNU Make
