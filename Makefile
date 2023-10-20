@@ -18,7 +18,7 @@
 #
 
 PROJECT_NAME := Scratch a Pixel 3D Renderer
-PROJECT_VERSION := 0.1.2.3-dev
+PROJECT_VERSION := 0.2.0.4-dev
 # VERSION in the form MAJOR.MINOR.PATCH.BUILD-AUDIENCE
 # Example for Developer Build, version 2.14 patch 3
 # 2.14.3.841-dev
