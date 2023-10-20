@@ -1,3 +1,17 @@
+10/20/2023 16:29 Sage I. Hendricks <sage.message@email.com>
+
+	Added basic functionality to the vector library.
+
+	* source/vec/vector.c (vec_new_fvector, vec_f_free, vec_f_resize,
+	vec_f_get, vec_f_set): created new functions
+	* soruce/vec/vector.h: added prototypes for the previously mentioned
+	functions
+	
+	* README.md: updated version to 0.3.0.5-dev
+	* VERSION: updated version to 0.3.0.5-dev
+	* README: updated version to 0.3.0.5-dev
+	* Makefile: updated version to 0.3.0.5-dev
+
 10/20/2023 15:09 Sage I. Hendricks <sage.message@email.com>
 
 	Added a bash script to update version in each file easier

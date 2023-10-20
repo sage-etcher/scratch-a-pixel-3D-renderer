@@ -1,6 +1,6 @@
 # Scratch a Pixel 3D Renderer
 
-___version:___ 0.2.0.4-dev  
+___version:___ 0.3.0.5-dev  
 
 A 3D Rendering library build using the tutorials at [Scratch-a-Pixel](https://scratchapixel.com/index.html).
 
