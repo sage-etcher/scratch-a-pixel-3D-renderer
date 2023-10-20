@@ -1,3 +1,16 @@
+10/19/2023 14:57 Sage I. Hendricks <sage.message@email.com>
+
+	Moved Template "source" files to a seperate directory, 'source/template'
+
+	* source/example.c: moved to 'source/template/example.c'
+	* source/example.h: moved to 'source/template/example.h'
+	* source/main.c: moved to 'source/template/main.c'
+
+	* README.md: updated version to 0.1.2.3-dev
+	* VERSION: updated version to 0.1.2.3-dev
+	* README: updated version to 0.1.2.3-dev
+	* Makefile: updated version to 0.1.2.3-dev
+
 10/19/2023 14:47 Sage I. Hendricks <sage.message@email.com>
 	
 	Fixed the Scratch-a-Pixel hyperlink in the GitHub README.md
@@ -8,11 +21,9 @@
 	* README: updated version to 0.1.1.2-dev
 	* Makefile: updated version to 0.1.1.2-dev
 
-
-
 10/19/2023 14:40 Sage I. Hendricks <sage.message@email.com>
 
-    Setup the Template Project for use in this project
+	Setup the Template Project for use in this project
 	
 	* source/vec/vector.h: setup file from template, 'example.h'. removed
 	'ex_hello_world' prototype.
@@ -45,3 +56,4 @@
 
 	* ChangeLog: Wiped the Template ChangeLog and started logging project
 	updates and changes.
+
