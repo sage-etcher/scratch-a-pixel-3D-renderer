@@ -1,6 +1,8 @@
-# PROJECT NAME
+# Scratch a Pixel 3D Renderer
 
-PROJECT DESCRIPTION  
+___version:___ 0.1.0.1-dev  
+
+A 3D Rendering library build using the tutorials at (Scratch-a-Pixel)[https://scratchapixel.com/index.html].
 
 
 ## Building the Program using GNU Make
@@ -16,10 +18,9 @@ $ make build
 |-----:|-----------|
 | VERSION | Contains program's name, version, and licensing information |
 | Makefile | GNU Makefile used to build and install the program |
-| source/main.c | Project main source file |
-| source/\*.c | Project source code files |
-| source/\*.h | Project source header files |
-
+| source/vec/\*.\* | Project source files for building the libvec library |
+| source/mat/\*.\* | Project source files for building the libmat library |
+| source/test/main.c | Source file for testing that the previous libraries are working |
 
 ## License
 

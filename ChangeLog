@@ -1,92 +1,36 @@
-10/20/2023 11:27 Sage I. Hendricks <sage.message@email.com>
 
-    Added Basic Template for the GitHub cover page/readme
+10/19/2023 14:40 Sage I. Hendricks <sage.message@email.com>
 
-    * README.md: Added basic templating information. A section for the
-    project's name and description, a section for building the program, a
-    section explaining files, and a section for the license.
+    Setup the Template Project for use in this project
+	
+	* source/vec/vector.h: setup file from template, 'example.h'. removed
+	'ex_hello_world' prototype.
+	* source/vec/vector.c: setup file from template, 'example.c', and linked
+	it with 'source/vec/vector.h'. removed 'ex_hello_world' function.
+	
+	* source/mat/matrix.h: setup file from template, 'example.h'. removed
+	'ex_hello_world' prototype.
+	* source/mat/matrix.c: setup file from template, 'example.c', and linked
+	it with 'source/mat/matrix.h' and 'source/vec/vector.h'. remvoed
+	'ex_hello_world' function.
 
-10/20/2023 10:56 Sage I. Hendricks <sage.message@email.com> 
+	* source/test/main.c: setup file from template, 'main.c', and linked
+	it with'source/vec/vector.h' and 'source/mat/matrix.h'. removed call to
+	'ex_hello_world' function in the 'main' function
 
-    Added basic instalation + build instruction for unix-like systems.
+	* Makefile: added project Version and Name for PROJECT_NAME and
+	PROJECT_VERSION
+	* Makefile: removed build instruction for the 'EXAMPLE' program.
+	* Makefile: added instructions to build libvec.dll, libmat.dll, and
+	test.exe from sources
+	* Makefile: silenced all 'cp', 'rm', and 'mkdir' commands.
 
-    * INSTALL: Added lines for needed Dependencies, and instruction to build
-    and install the program using GNU Make and the provided Makefile.
+	* .gitignore: added exclutions for temporary files *.bak and *.swp
 
-10/20/2023 10:48 Sage I. Hendricks <sage.message@email.com>
+	* VERSION: replaced the template variables with project name and version
+	* README: replace the template variables with project name and version
+	* README.md: updated tehe template values with information specific to
+	this project and it's files
 
-    Git no longer ignores root folders named "install".
-
-    * .gitignore: removed the line "install/**", because such a
-    folder shouldn't exist. Secondly, on the windows platform the INSTALL file
-    makes having a folder named such impossible.
-
-10/20/2023 10:29 Sage I. Hendricks <sage.message@email.com>
-
-    Git should now grab the "Empty" directories.
-
-    * resources/.gitkeep: created an empty file to log directory
-    * source/include/.gitkeep: created an empty file to log directory
-    * source/lib/.gitkeep: created an empty file to log directory
-
-10/20/2023 10:11 Sage I. Hendricks <sage.message@email.com>
-
-    Clarified wording in the VERSION text
-
-    * VERSION: changed some wording in the "This is Free Software" line to
-    better express that it is with regards to the LICENSE.
-
-10/20/2023 09:55 Sage I. Hendricks <sage.message@email.com>
-
-    Clarified versioning scheme in the primary Makefile
-
-    * Makefile: Added comments detailing the recomended Version Scheme.
-    Comment insertion just below the "PROJECT_VERSION" variable.
-
-10/20/2023 09:40 Sage I. Hendricks <sage.message@email.com>
-
-    Setup the project to work with GitHub
-
-    * README: added description for GitHub's "README.md" file
-    * .gitignore: Doesn't grab build files
-    * .git/**: Git files created
-
-10/20/2023 08:52 Sage I. Hendricks <sage.message@email.com>
-
-    Converted Previous ChangeLog file to propper GNU Style
-
-    * ChangeLog: Updated formatting
-
-10/19/2023 16:06 Sage I. Hendricks <sage.message@email.com>
-
-    Program prints Hello World message at runtime.
-
-    * source/main.c (main): Call ex_hello_world function before exitting
-
-10/19/2023 15:57 Sage I. Hendricks <sage.message@email.com>
-
-    Wrote a basic Makefile to compile the example program
-
-    * Makefile (build, install, uninstall, clean): added basic instructions
-    needed to install simple programs
-
-10/19/2023 13:40 Sage I. Hendricks <sage.message@email.com>
-
-    Wrote basic hello world example program
-
-    * source/example.c (ex_hello_world): new function, prints "Hello, World"
-    to stdin.
-    * source/example.h (ex_hello_world): added function prototype in header
-    file for the function.
-    * source/main.c (main): added main funtion
-
-10/19/2023 10:21 Sage I. Hendricks <sage.message@email.com>
-
-    Created Simple Directory and File Structures
-
-    * ChangeLog: Created new file and logged changes
-    * LICENSE: applited the Apache Version 2 license
-    * README: wrote basic template GNU README file
-    * VERSION: wrote basic template VERSION file for "program --version" to
-    read from.
-
+	* ChangeLog: Wiped the Template ChangeLog and started logging project
+	updates and changes.
